@@ -1,3 +1,15 @@
+/*Automaton checker to accept a string based on the automata provided in class.
+  input.txt format is 
+  no. of states
+  no. of final states 
+  intial state
+  final states
+  transition state matrix
+  note: the states are 0 indexed
+  also if case-insensitivity is desired add tolower where ever required.
+*/
+
+
 #include<bits/stdc++.h>
 
 using namespace std;
