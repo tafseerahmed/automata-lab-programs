@@ -40,14 +40,9 @@ void build_transition_table(unsigned int n) {
 
 //transition
 int transition(char input, int curr_state) {
-    //cout<<"current character: "<<input<<" ";
-    //cout<<"current state: "<<curr_state<<" ";
     int idx = input - 'a';
     if (idx > input_domain.size())
         return -1;
-    //cout<<"current index: "<<idx<<" ";
-    //cout<<endl;
-    //cout<<next_state[curr_state][idx];
     return next_state[curr_state][idx];
 
 };
